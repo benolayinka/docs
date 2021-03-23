@@ -61,7 +61,7 @@ jobs:
       run: make build.public
       env:
         HUGO: ./hugo.linux
-        HUGO_BASE_URL: https://www.thethingsnetwork.org/docs
+        HUGO_BASE_URL: https://benolayinka.github.io/docs/
     - name: Deploy documentation to Github pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
